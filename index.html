@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>詠樂中醫診所｜台北內湖 中醫診療・針灸・漢方調理</title>
+<meta name="description" content="詠樂中醫診所位於台北市內湖區內湖路一段，提供中醫診療、針灸與漢方調理。可用電話或官方 LINE 預約。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='2' y='2' width='28' height='28' rx='3' fill='%233d5c54'/%3E%3Ctext x='16' y='22' font-size='16' text-anchor='middle' fill='%23f3efe6' font-family='serif'%3E詠%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3efe6;--paper2:#e8e1d3;--ink:#2c2a26;--teal:#3d5c54;--teal2:#2a423c;--clay:#8b5e4a;--mut:#6a6358;--line:#ddd4c6;--white:#fbf8f2;--serif:"Noto Serif TC",serif;--sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:78px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.95;font-size:16px;letter-spacing:.03em;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}a{color:inherit}h1,h2,h3{font-family:var(--serif);font-weight:600;text-wrap:balance;line-height:1.45}p{text-wrap:pretty}
+.w{width:min(1140px,calc(100% - 48px));margin:0 auto}
+.nav{position:sticky;top:0;z-index:50;background:rgba(243,239,230,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .w{height:78px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.seal{width:42px;height:42px;background:var(--teal);color:var(--paper);display:grid;place-items:center;font-family:var(--serif);font-size:20px;border-radius:4px;font-weight:600}
+.brand b{font-family:var(--serif);font-size:21px;letter-spacing:.18em;font-weight:600}
+.links{display:flex;gap:28px;align-items:center}.links a{text-decoration:none;font-size:15px;letter-spacing:.12em}.links a:hover{color:var(--clay)}
+.links .cta{background:var(--teal);color:var(--paper);padding:9px 20px;border-radius:4px}.links .cta:hover{background:var(--teal2);color:var(--paper)}
+.burger{display:none;border:1px solid var(--line);background:none;width:44px;height:44px;border-radius:4px;font-size:20px;cursor:pointer;color:var(--ink)}
+.hero{position:relative;min-height:calc(100vh - 78px);display:flex;align-items:center;color:var(--paper);background:#1c1a16 url(img/hero.webp) center 40%/cover no-repeat;overflow:hidden}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(22,28,26,.88) 0%,rgba(22,28,26,.62) 46%,rgba(22,28,26,.22) 100%)}
+.hero .w{position:relative;padding:88px 0}
+.hero h1{font-size:clamp(40px,5.8vw,70px);margin:0;letter-spacing:.2em;font-weight:600}
+.hero p{font-size:clamp(16px,1.5vw,18.5px);color:#e4ddd0;max-width:540px;margin:18px 0 10px}
+.hero .hr{font-size:14.5px;color:#c9b99c;margin:0 0 36px;letter-spacing:.1em;line-height:1.8}.hero .hr br{display:none}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;justify-content:center;align-items:center;padding:14px 28px;border-radius:4px;text-decoration:none;font-size:15px;letter-spacing:.14em;transition:.25s}
+.btn.s{background:var(--clay);color:var(--paper)}.btn.s:hover{background:#734c3b}
+.btn.g{background:var(--teal);color:var(--paper)}.btn.g:hover{background:var(--teal2)}
+.btn.w2{border:1px solid rgba(243,239,230,.65);color:var(--paper)}.btn.w2:hover{background:var(--paper);color:var(--ink)}
+.btn.l{background:#06c755;color:#fff}.btn.l:hover{filter:brightness(.95)}
+.btn.k{border:1px solid var(--teal);color:var(--teal)}
+section{padding:110px 0}
+.sh{margin-bottom:56px}.sh h2{font-size:clamp(28px,3.2vw,38px);margin:0;letter-spacing:.2em}.sh p{color:var(--mut);margin:10px 0 0;max-width:640px}
+.intro{display:grid;grid-template-columns:1.05fr 1fr;gap:70px;align-items:center}
+.intro .pic{position:relative}.intro .pic img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:4px}
+.intro .pic .tag{position:absolute;left:16px;bottom:16px;background:var(--teal);color:var(--paper);padding:8px 14px;font-family:var(--serif);letter-spacing:.16em;font-size:14px;border-radius:3px}
+.vals{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+.vals div{background:var(--white);border:1px solid var(--line);padding:18px 18px 16px;border-radius:4px}
+.vals b{display:block;font-family:var(--serif);font-size:17px;letter-spacing:.1em;margin-bottom:4px}
+.vals span{color:var(--mut);font-size:14.5px}
+.dk{background:var(--teal2);color:#e8e0d4}.dk .sh p{color:#c9c0b0}
+.svcs{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.sv{background:rgba(243,239,230,.06);border:1px solid rgba(232,225,211,.16);padding:32px 28px;border-radius:6px}
+.sv .ch{font-family:var(--serif);width:42px;height:42px;display:grid;place-items:center;background:var(--clay);color:var(--paper);border-radius:3px;margin-bottom:16px;letter-spacing:0}
+.sv h3{margin:0 0 8px;font-size:22px;letter-spacing:.14em}
+.sv p{margin:0;color:#d4cbbd}
+.sv .why{margin-top:16px;padding-top:14px;border-top:1px solid rgba(232,225,211,.16);font-size:14.5px;color:#c9c0b0}
+.sv .why b{color:#f3efe6;margin-right:8px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.fl{background:var(--white);border:1px solid var(--line);padding:28px 22px;border-radius:6px}
+.fl .n{font-family:var(--serif);color:var(--clay);font-size:28px;letter-spacing:.08em;margin-bottom:8px}
+.fl h3{margin:0 0 8px;font-size:18px;letter-spacing:.12em}
+.fl p{margin:0;color:var(--mut);font-size:14.5px}
+.hrs{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:start}
+table{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line);border-radius:6px;overflow:hidden;font-size:15px}
+th,td{padding:12px 14px;text-align:center;border-bottom:1px solid var(--line)}
+th{background:var(--teal);color:var(--paper);font-weight:500;letter-spacing:.08em}
+tr:last-child td{border-bottom:0}td.off{color:#b0a89c}
+.note{color:var(--mut);font-size:14px;margin:14px 0 0}
+.side{background:var(--white);border:1px solid var(--line);padding:32px 28px;border-radius:6px}
+.side h3{margin:0 0 12px;letter-spacing:.14em}.side p{margin:0 0 10px}
+.faq details{background:var(--white);border:1px solid var(--line);border-radius:6px;padding:0 22px;margin-bottom:12px}
+.faq summary{cursor:pointer;padding:16px 0;font-family:var(--serif);font-size:17px;letter-spacing:.08em;list-style:none}
+.faq summary::-webkit-details-marker{display:none}.faq details[open] summary{border-bottom:1px solid var(--line)}
+.faq details p{color:var(--mut);padding:12px 0 18px;margin:0}
+.loc{display:grid;grid-template-columns:1fr 1.1fr;gap:28px;align-items:stretch}
+.loc .tx{background:var(--white);border:1px solid var(--line);padding:36px 32px;border-radius:6px}
+.loc h3{margin:0 0 18px;letter-spacing:.14em}
+dl{margin:0}dt{font-size:13px;letter-spacing:.16em;color:var(--mut)}dd{margin:0 0 16px;font-size:16px}
+.map iframe{width:100%;height:100%;min-height:360px;border:0;border-radius:6px;filter:grayscale(.15)}
+.gal{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-template-rows:220px 220px;gap:14px}
+.gal img{width:100%;height:100%;object-fit:cover;border-radius:4px}
+.gal .a{grid-row:1/3}
+footer{background:#1f2422;color:#bdb3a2;padding:64px 0 38px;font-size:14px}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer h4{font-family:var(--serif);color:var(--paper);font-size:17px;margin:0 0 12px;letter-spacing:.16em}
+footer p{margin:0}footer a{text-decoration:none}footer a:hover{color:#fff}
+.disc{margin-top:36px;padding-top:22px;border-top:1px solid rgba(255,255,255,.08);font-size:13px;line-height:1.8;color:#8d867c}
+.legal{font-size:12.5px;color:#7a746c;margin-top:16px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.legal a{color:#c9b99c;text-decoration:underline}
+.mbar{display:none}
+@media(max-width:1000px){
+ .intro,.hrs,.loc,.svcs{grid-template-columns:1fr}
+ .flow{grid-template-columns:1fr 1fr}
+ .gal{grid-template-columns:1fr 1fr;grid-template-rows:220px 180px 180px}
+ .gal .a{grid-row:1;grid-column:1/3}
+ .fg{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+ .w{width:calc(100% - 36px)}section{padding:80px 0}
+ .links{display:none;position:fixed;top:78px;left:0;right:0;bottom:0;background:var(--paper);flex-direction:column;align-items:stretch;gap:0;padding:10px 26px}
+ .links.open{display:flex}.links a{padding:16px 0;border-bottom:1px solid var(--line);font-size:16px}
+ .links .cta{text-align:center;margin-top:18px}
+ .hero .hr br{display:block}.burger{display:block}
+ .hero h1{letter-spacing:.14em}.hero{min-height:calc(100svh - 78px);padding:20px 0 80px}
+ .hero .w{padding:70px 0}
+ .btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}.hero .btns .btn:last-child{grid-column:1/-1}.btn{padding:13px 8px;letter-spacing:.08em}
+ .vals,.flow,.fg{grid-template-columns:1fr}
+ .intro .pic img{aspect-ratio:16/11}
+ .loc .tx{padding:28px 22px}
+ .mbar{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#1f2422;border-top:1px solid rgba(255,255,255,.08)}
+ .mbar a{text-align:center;padding:14px 0;text-decoration:none;font-size:14px;letter-spacing:.1em;color:#f3efe6}
+ .mbar a.l{background:#06c755;color:#fff}
+ footer{padding-bottom:90px}
+}
+</style>
+</head>
+<body>
+<header class="nav"><div class="w">
+ <a class="brand" href="#top"><span class="seal">詠</span><b>詠樂中醫診所</b></a>
+ <nav class="links" id="links"><a href="#about">診所簡介</a><a href="#services">門診項目</a><a href="#flow">看診流程</a><a href="#hours">門診時間</a><a href="#visit">交通資訊</a><a class="cta" href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">LINE 預約</a></nav>
+ <button class="burger" id="burger" aria-label="選單">☰</button>
+</div></header>
+
+<section class="hero" id="top"><div class="w">
+  <h1>詠樂中醫診所</h1>
+  <p>位於台北市內湖區的中醫診所，提供中醫診療、針灸與漢方調理。</p>
+  <p class="hr">週一至週五下午、晚間　·　週六上午<br>近捷運文湖線西湖站</p>
+  <div class="btns">
+    <a class="btn l" href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">LINE 預約</a>
+    <a class="btn s" href="tel:+886226275580">02-2627-5580</a>
+    <a class="btn w2" href="#visit">交通位置</a>
+  </div>
+</div></section>
+
+<section id="about"><div class="w intro">
+ <div class="pic"><img src="img/tea.webp" alt="茶器與熱茶" loading="lazy"><div class="tag">內湖看診</div></div>
+ <div>
+  <div class="sh" style="margin-bottom:26px"><h2>診所簡介</h2></div>
+  <p>詠樂中醫診所位於台北市內湖區內湖路一段，提供一般中醫門診。若您有身體不適，或希望以中醫方式做日常調理，歡迎先以電話或官方 LINE 預約後再前來。</p>
+  <p>中醫看診通常會從生活作息、飲食、睡眠與過往就醫情形談起，再決定適合的處置方式。實際診療內容以當日醫師評估為準。</p>
+  <p>首次就診請攜帶健保卡與身分證件，並預留足夠時間說明身體狀況。若您同時在其他院所就醫或正在服用藥物，請於看診時一併告知。</p>
+  <div class="vals">
+   <div><b>電話預約</b><span>02-2627-5580</span></div>
+   <div><b>官方 LINE</b><span>@351vhpcc</span></div>
+   <div><b>看診地區</b><span>台北市內湖區內湖路一段</span></div>
+   <div><b>週日休診</b><span>其餘時段請見門診時間</span></div>
+  </div>
+ </div>
+</div></section>
+
+<section class="dk" id="services"><div class="w">
+ <div class="sh"><h2>門診項目</h2><p>以下為診所對外公開的服務方向。個別症狀是否適合就診、以及實際處置方式，都需由醫師當面評估。</p></div>
+ <div class="svcs">
+  <div class="sv"><div class="ch">診</div><h3>中醫診療</h3><p>一般中醫門診，由醫師了解身體狀況後說明調理方向。</p><div class="why"><b>說明</b>實際診療內容以醫師判斷為準</div></div>
+  <div class="sv"><div class="ch">針</div><h3>針灸</h3><p>若醫師評估適合，會進行針灸處置。細節與注意事項會在診間說明。</p><div class="why"><b>說明</b>是否施針需視當日評估而定</div></div>
+  <div class="sv"><div class="ch">方</div><h3>漢方調理</h3><p>依個人狀況開立藥材或科學中藥。用藥方式請依醫師指示。</p><div class="why"><b>說明</b>用藥內容因人而異，請勿自行加減</div></div>
+  <div class="sv"><div class="ch">養</div><h3>養生調理</h3><p>針對日常保健與體質調理提供建議，作為生活上的參考。</p><div class="why"><b>說明</b>不能取代必要的西醫檢查與治療</div></div>
+ </div>
+</div></section>
+
+<section id="flow"><div class="w">
+ <div class="sh"><h2>看診流程</h2><p>以下為一般中醫診所常見的就診步驟，方便您事先了解。實際流程請依現場說明為準。</p></div>
+ <div class="flow">
+  <div class="fl"><div class="n">01</div><h3>預約掛號</h3><p>請先以電話或官方 LINE 預約，並告知希望就診的時段。</p></div>
+  <div class="fl"><div class="n">02</div><h3>報到候診</h3><p>請依約定時間到達，於櫃台報到。首次就診請攜帶健保卡與證件。</p></div>
+  <div class="fl"><div class="n">03</div><h3>看診說明</h3><p>向醫師說明不適開始的時間、作息、飲食與正在使用的藥物。</p></div>
+  <div class="fl"><div class="n">04</div><h3>後續調理</h3><p>依醫師指示用藥或回診。若症狀變化或有疑問，請再與診所聯絡。</p></div>
+ </div>
+</div></section>
+
+<section id="hours" style="background:var(--paper2)"><div class="w">
+ <div class="sh"><h2>門診時間</h2><p>以下整理自公開登記的營業時間，國定假日與臨時異動請以電話或 LINE 確認。</p></div>
+ <div class="hrs">
+  <table>
+   <thead><tr><th></th><th>一</th><th>二</th><th>三</th><th>四</th><th>五</th><th>六</th><th>日</th></tr></thead>
+   <tbody>
+    <tr><th>上午</th><td class="off">休診</td><td class="off">休診</td><td class="off">休診</td><td class="off">休診</td><td class="off">休診</td><td>09:00–12:00</td><td class="off">休診</td></tr>
+    <tr><th>下午</th><td>14:00–17:00</td><td>14:00–17:00</td><td>14:00–17:00</td><td>14:00–17:00</td><td>14:00–17:00</td><td class="off">休診</td><td class="off">休診</td></tr>
+    <tr><th>晚上</th><td>18:00–21:00</td><td>18:00–21:00</td><td>18:00–21:00</td><td>18:00–21:00</td><td>18:00–21:00</td><td class="off">休診</td><td class="off">休診</td></tr>
+   </tbody>
+  </table>
+  <div class="side">
+   <h3>預約方式</h3>
+   <p>電話：<a href="tel:+886226275580">02-2627-5580</a></p>
+   <p>官方 LINE：<a href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">@351vhpcc</a></p>
+   <p class="note">建議先預約再前往，以免久候或遇到休息時段。健保與收費相關問題，也請直接向診所確認。</p>
+   <div class="btns" style="margin-top:22px">
+    <a class="btn l" href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">加入 LINE</a>
+    <a class="btn g" href="tel:+886226275580">立即撥打</a>
+   </div>
+  </div>
+ </div>
+</div></section>
+
+<section id="space"><div class="w">
+ <div class="sh"><h2>環境印象</h2><p>以下為氣氛示意照片，不是診所實景。實際空間請以現場為準。</p></div>
+ <div class="gal">
+  <img class="a" src="img/herbs.webp" alt="藥草與茶湯示意" loading="lazy">
+  <img src="img/honey.webp" alt="罐裝蜂蜜示意" loading="lazy">
+  <img src="img/light.webp" alt="明亮安靜的室內一角" loading="lazy">
+ </div>
+</div></section>
+
+<section id="faq" style="background:var(--paper2)"><div class="w">
+ <div class="sh"><h2>常見問題</h2></div>
+ <div class="faq">
+  <details><summary>要怎麼預約？</summary><p>請撥打 02-2627-5580，或加入官方 LINE @351vhpcc 留言預約。建議先約好時段再前往。</p></details>
+  <details><summary>第一次去要帶什麼？</summary><p>請攜帶健保卡與身分證件。若有近期檢查報告，或正在服用其他藥物，也建議一併帶去或先列出，方便醫師評估。</p></details>
+  <details><summary>可以現場候診嗎？</summary><p>建議先預約。若您希望現場掛號，請先打電話確認當日是否還有名額。</p></details>
+  <details><summary>有沒有停車資訊？</summary><p>診所位於內湖路一段，鄰近街廓有路邊停車格與收費停車場。車位情況會隨時間變動，建議預留找車時間，或優先搭乘捷運。</p></details>
+  <details><summary>費用怎麼計算？</summary><p>掛號費、部分負擔與自費項目請以現場公告或向櫃台詢問為準，本頁不列出可能異動的金額。</p></details>
+ </div>
+</div></section>
+
+<section id="visit"><div class="w">
+ <div class="loc">
+  <div class="tx">
+   <h3>交通位置</h3>
+   <dl>
+    <dt>地址</dt><dd>台北市內湖區內湖路一段 373 號 1 樓</dd>
+    <dt>電話</dt><dd><a href="tel:+886226275580">02-2627-5580</a></dd>
+    <dt>官方 LINE</dt><dd><a href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">@351vhpcc</a></dd>
+    <dt>捷運</dt><dd>文湖線西湖站，沿內湖路一段步行可達</dd>
+   </dl>
+   <div class="btns" style="margin-top:10px">
+    <a class="btn g" href="https://www.google.com/maps/search/?api=1&query=詠樂中醫診所+台北市內湖區內湖路一段373號" target="_blank" rel="noopener">開啟地圖</a>
+    <a class="btn k" href="tel:+886226275580">電話洽詢</a>
+   </div>
+  </div>
+  <div class="map"><iframe loading="lazy" title="詠樂中醫診所地圖" src="https://www.google.com/maps?q=台北市內湖區內湖路一段373號&z=16&hl=zh-TW&output=embed"></iframe></div>
+ </div>
+</div></section>
+
+<footer><div class="w">
+ <div class="fg">
+  <div><h4>詠樂中醫診所</h4><p>台北市內湖區內湖路一段 373 號 1 樓<br>電話 02-2627-5580<br>官方 LINE @351vhpcc</p></div>
+  <div><h4>門診時間</h4><p>週一至週五 14:00–17:00、18:00–21:00<br>週六 09:00–12:00<br>週日休診</p></div>
+  <div><h4>網站導覽</h4><p><a href="#services">門診項目</a>　<a href="#flow">看診流程</a><br><a href="#hours">門診時間</a>　<a href="#faq">常見問題</a><br><a href="#visit">交通資訊</a></p></div>
+ </div>
+ <div class="disc">【衛教聲明】本網站內容僅供說明與衛教參考，不能取代醫師之診斷與治療。中醫診療依個人體質與病況而異，請親自就診由醫師評估。</div>
+ <div class="legal"><span>© 詠樂中醫診所</span><span><a href="https://kova.tw">此為 Kova 提案示範網站</a> · 照片 Unsplash（氣氛示意，非診所實景）</span></div>
+</div></footer>
+<div class="mbar"><a href="tel:+886226275580">撥打電話</a><a class="l" href="https://line.me/R/ti/p/@351vhpcc" target="_blank" rel="noopener">LINE 預約</a><a href="#hours">門診時間</a></div>
+<script>
+const links=document.getElementById('links');document.getElementById('burger').onclick=()=>links.classList.toggle('open');
+links.querySelectorAll('a').forEach(a=>a.onclick=()=>links.classList.remove('open'));
+</script>
+</body>
+</html>
